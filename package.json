@@ -8,10 +8,10 @@
   "scripts": {
     "start": "node server.js",
     "build": "echo 'No build needed'",
-    "postinstall": "npm rebuild better-sqlite3"
+    "postinstall": "npm rebuild better-sqlite3 --build-from-source"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "better-sqlite3": "^11.0.0"
+    "better-sqlite3": "^11.1.1"
   }
 }
